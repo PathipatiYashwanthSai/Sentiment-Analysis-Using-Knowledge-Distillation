@@ -1,0 +1,10 @@
+transformers
+datasets
+py7zr
+peft
+evaluate
+accelerate>=0.20.1
+torch
+scikit-learn
+matplotlib
+numpy
