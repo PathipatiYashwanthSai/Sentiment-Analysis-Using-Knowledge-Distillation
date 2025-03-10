@@ -73,7 +73,7 @@ pip install -r requirements.txt
 jupyter notebook Sentiment_Analysis.ipynb
 ```
 
-**Note**: Make sure you have a wandb API key for training the models
+- Note: Make sure you have a wandb API key for training the models
 ---
 
 ## **Evaluation Metrics**
