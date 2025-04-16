@@ -6,9 +6,9 @@ This project explores efficient sentiment analysis by reducing the size of large
 ---
 
 ## **Contributions**
-- Yashwanthsai Pathipati (U58581488) - Performing Knowledge distillation and evaluating the distilled models performance
-- Himasree Pathipati (U56299154) - Fine-tuning teacher model and evaluating it’s performance
-- Srichandana Rangula (U54607515) - Fine-tuning student model and evaluating it’s performance
+- Yashwanthsai Pathipati (U58581488) - performing knowledge distillation and benchmarking the performance and **Robustness** of the distilled model on an unseen dataset
+- Himasree Pathipati (U56299154) - Fine-tuning teacher model and benchmarking the performance and **Robustness** of the model on an unseen dataset
+- Srichandana Rangula (U54607515) - Fine-tuning student model and benchmarking the performance and **Robustness** of the model on an unseen dataset
 
 ---
 
@@ -36,10 +36,18 @@ To address these challenges, our project focuses on:
 
 ## **Technologies Used**
 - Deep Learning Frameworks: PyTorch, Hugging Face Transformers 
+- Trustworthy Principle: Robustness and Reliability
 - Dataset: Stanford Sentiment Treebank (SST-2)
+- Benchmarking dataset: stanfordnlp/imdb
 - Optimization Techniques: Knowledge Distillation (KD), LoRA 
-- Performance Evaluation: Accuracy, F1-score, Inference Time, Memory Usage 
+- Performance Evaluation: Accuracy, F1-score, Inference Time, Memory Usage
 - Training Environment: Google Colab Pro
+- ChatGPT: For guidance and support
+
+---
+
+## **Trustworthiness Evaluation Metric**
+We chose robustness and reliability as the core trustworthy AI principles to evaluate my project because they directly reflect a model's stability and consistent performance under unseen or challenging data conditions. Ensuring that the sentiment analysis model remains accurate and dependable, even after compression through knowledge distillation, is crucial for real-world applicability.
 
 ---
 
@@ -94,6 +102,16 @@ jupyter notebook Sentiment_Analysis.ipynb
 
 ---
 
+## **Benchmarking Results**
+
+|         Model         | Accuracy | F1-Score | Precision | Recall |
+|:---------------------:|:--------:|:--------:|:---------:|:------:|
+|    BERT Fine-Tuned    |   86%    |   86%    |    86.9%    |  86%   |
+| DistilBERT Fine-Tuned |   83.1%    |   82.9%	   |    84.7%    |  83.1%   |
+|     DistilBERT KD     |   88.7%    |   88.7%    |    88.9%    |  88.7%   |
+
+---
+
 ## **Key Findings**
 
 - LoRA optimization reduces memory usage while maintaining high accuracy.
@@ -107,5 +125,7 @@ jupyter notebook Sentiment_Analysis.ipynb
 - Hu, E., Wang, Y., et al. (2021). "LoRA: Low-Rank Adaptation of Large Language Models." arXiv.
 - Devlin, J., Chang, M.-W., et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." NAACL-HLT.
 - Sanh, V., Debut, L., et al. (2019). "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter." arXiv.
+- ⁠Zhao, X., Huang, W., Banks, A., Cox, V., Flynn, D., Schewe, S., & Huang, X. (2021). "Assessing the Reliability of Deep Learning Classifiers Through Robustness Evaluation and Operational Profiles"
+- Nalbandyan, G., Shahbazyan, R., & Bakhturina, E. (2025). "SCORE: Systematic COnsistency and Robustness Evaluation for Large Language Models"
 
 ---
