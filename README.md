@@ -117,7 +117,7 @@ jupyter notebook Sentiment_Analysis.ipynb
 
 - LoRA optimization reduces memory usage while maintaining high accuracy.
 - Knowledge Distillation significantly improves **DistilBERT's** performance.
-- The final **distilled model is 52% faster and half the memory size** than BERT with only a slight accuracy drop.
+- The final **distilled model is 54% faster and half the memory size** than BERT with only a slight accuracy drop.
 
 ---
 
