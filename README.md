@@ -107,9 +107,9 @@ jupyter notebook Sentiment_Analysis.ipynb
 
 |         Model         | Accuracy | F1-Score | Precision | Recall |
 |:---------------------:|:--------:|:--------:|:---------:|:------:|
-|    BERT Fine-Tuned    |   86%    |   86%    |    86.9%    |  86%   |
-| DistilBERT Fine-Tuned |   83.1%    |   82.9%	   |    84.7%    |  83.1%   |
-|     DistilBERT KD     |   88.7%    |   88.7%    |    88.9%    |  88.7%   |
+|    BERT Fine-Tuned    |   86.08%    |   86.00%    |    86.98%    |  86.08%   |
+| DistilBERT Fine-Tuned |   83.11%    |   82.92%	   |    84.70%    |  83.11%   |
+|     DistilBERT KD     |   88.72%    |   88.71%    |    88.90%    |  88.72%   |
 
 ---
 
