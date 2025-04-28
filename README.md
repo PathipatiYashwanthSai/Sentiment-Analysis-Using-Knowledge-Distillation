@@ -54,10 +54,11 @@ We chose robustness and reliability as the core trustworthy AI principles to eva
 ## **Project Structure**
 ```
 /sentiment-analysis
-├── Sentiment_Analysis.ipynb   # Jupyter Notebook with code implementation
-├── requirements.txt           # Dependencies for running the project
-├── README.md                  # Project documentation
-└── results                    # Evaluation metrics and visualizations
+├── Sentiment_Analysis.ipynb             # Jupyter Notebook with code implementation
+├── Sentiment Analysis- Robustness.pdf   # PDF version of the Sentiment Analysis code implementation
+├── requirements.txt                     # Dependencies for running the project
+├── README.md                            # Project documentation
+└── results                              # Evaluation metrics and visualizations
 
 ```
 
